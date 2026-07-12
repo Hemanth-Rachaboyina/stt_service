@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="STT Service", version="1.0.0")
 
-MODEL_SIZE = "small"
+MODEL_SIZE = "tiny"
 model = None
 
 

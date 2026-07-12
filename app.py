@@ -6,7 +6,7 @@ import numpy as np
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-MODEL_SIZE = "small"
+MODEL_SIZE = "tiny"
 model = None
 
 # Load model immediately on startup
